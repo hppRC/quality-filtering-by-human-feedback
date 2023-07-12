@@ -4,12 +4,10 @@ version = "0.1.0"
 description = ""
 readme = "README.md"
 authors = ["hppRC <hpp.ricecake@gmail.com>"]
-packages = [{ include = "src" }]
+packages = []
 
 [tool.poetry.dependencies]
 python = "3.10.x"
-torch = "^2.0.1"
-transformers = "^4.30.0"
 numpy = "^1.25.0"
 pandas = "^2.0.3"
 more-itertools = "^9.1.0"
